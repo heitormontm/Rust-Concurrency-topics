@@ -109,6 +109,7 @@ let handler = builder.spawn(|| {
     // Use like any old thread spawn
 }).unwrap(); // Unwrapped as spawn could fail (resource limits, out of mem)
 
+// ============================================================================================
 // We can also use more robust code to handle errors
 
 let handler = builder.spawn(|| {
